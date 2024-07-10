@@ -8,7 +8,7 @@ import {
 } from '@solana/web3.js';
 
 async function getTransactionsForAddress(address: string) {
-    const connection = new Connection(clusterApiUrl('testnet'), 'confirmed');
+    const connection = new Connection(clusterApiUrl('devnet'), 'confirmed');
     const publicKey = new PublicKey(address);
 
     // Fetch confirmed signatures for the address
@@ -35,7 +35,7 @@ async function getTransactionsForAddress(address: string) {
 }
 
 // Replace with the address you want to check
-const address = 'B4x58JZf7Yjnb3RkjrXvYNdwhBR4i5fRUUhWPDGchsM6';
+const address = 'GBDFMRpCkaMfKxBSN4TnCL4ecAoPs6s6LMkGDLUtAt3C';
 
 getTransactionsForAddress(address).catch((err) => {
     console.error(err);
