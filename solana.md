@@ -13,3 +13,5 @@ curl https://api.devnet.solana.com -X POST -H "Content-Type: application/json" -
   }
 '
 ```
+
+- [reference](https://solana.com/docs/rpc/http/gettransaction) for getting transactions
