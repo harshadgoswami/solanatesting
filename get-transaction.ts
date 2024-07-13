@@ -8,14 +8,19 @@ import {
 } from '@solana/web3.js';
 
 async function getTransactionsForAddress(address: string) {
-    const connection = new Connection(clusterApiUrl('devnet'), 'confirmed');
+
+    const connection = new Connection(clusterApiUrl('testnet'), 'confirmed');
     const publicKey = new PublicKey(address);
+
+    console.log("after connection");
 
     // Fetch confirmed signatures for the address
     const signatures: ConfirmedSignatureInfo[] = await connection.getSignaturesForAddress(
         publicKey,
-        { limit: 10 }, // Change the limit as needed
+        { limit: 1 }, // Change the limit as needed
     );
+
+
 
     console.log(`Found ${signatures.length} transactions for address ${address}`);
 

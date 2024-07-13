@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "get-transaction": "tsx get-transaction.ts",
+    "get-transaction": "tsx watch get-transaction.ts",
     "request-airdrop": "tsx watch request-airdrop.ts"
   },
   "keywords": [],

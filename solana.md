@@ -14,4 +14,8 @@ curl https://api.devnet.solana.com -X POST -H "Content-Type: application/json" -
 '
 ```
 
-- [reference](https://solana.com/docs/rpc/http/gettransaction) for getting transactions
+### Important References
+
+- [reference](https://solana.com/docs/rpc/http/gettransaction) for getting transaction information
+- [reference](https://solana.com/developers/guides/getstarted/solana-token-airdrop-and-faucets#using-the-solana-cli) for getting the faucet
+- [reference](https://solana.com/docs/rpc/http/getsignaturesforaddress#parameters) for getting signatures for addresses
