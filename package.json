@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "get-transaction": "tsx watch get-transaction.ts",
-    "request-airdrop": "tsx watch request-airdrop.ts"
+    "request-airdrop": "tsx watch request-airdrop.ts",
+    "account-testing": "tsx watch account-testing.ts"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,7 @@
     "typescript": "^5.5.3"
   },
   "dependencies": {
-    "@solana/web3.js": "^1.95.0"
+    "@solana/web3.js": "^1.95.0",
+    "bs58": "^6.0.0"
   }
 }
