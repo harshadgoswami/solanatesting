@@ -10,14 +10,17 @@ solana airdrop 1
 
 ### solana credentails in command line
 
+```
 ========================================================================
 pubkey: 6p3f1oDZXJF8TN3357Y2vxFwB53KSXgQnEPnCyt1XPy8
 ========================================================================
 Save this seed phrase and your BIP39 passphrase to recover your new keypair:
 engine method injury tiny wage frame visit mother pink crash mail market
+```
 
 ### token creation
 
+```
 input: spl-token create-token
 
 output:
@@ -28,9 +31,11 @@ Address: CcLGVWUvrdhfQn8xZ9nmgWSAp8AKTbDP7n3T6SDURQFK
 Decimals: 9
 
 Signature: 65Jsod8CF8U18GEt7GtYxQED5vfe91hwTysWTvjyUJNhFhAgyKfBDCpH6RfFiNBTVcngweZfNhEN3sNyzrvJiABf
+```
 
 ### create token account
 
+```
 input:
 spl-token create-account CcLGVWUvrdhfQn8xZ9nmgWSAp8AKTbDP7n3T6SDURQFK
 
@@ -50,9 +55,11 @@ Token: CcLGVWUvrdhfQn8xZ9nmgWSAp8AKTbDP7n3T6SDURQFK
 Recipient: J4kqgWxXuQipczi9wM1JNKhxiU19omrNt8Svi1gdMQpX
 
 Signature: 53jwxv57vKHibLfg7oFfeYcE9dnUbQhJKLAYgyCnguP9aibYUKaS3cp3gBfedqnLwyCw2CeSyYgUNyoyXTcdRDJT
+```
 
 ### transfer token to another address
 
+```
 input:
 spl-token transfer CcLGVWUvrdhfQn8xZ9nmgWSAp8AKTbDP7n3T6SDURQFK 50 GBDFMRpCkaMfKxBSN4TnCL4ecAoPs6s6LMkGDLUtAt3C --fund-recipient
 
@@ -64,3 +71,4 @@ Recipient associated token account: 7nM9iDSdaD38PmbkBDFaAeQUKuJiCHFjbaYdWLHR99bG
 Funding recipient: 7nM9iDSdaD38PmbkBDFaAeQUKuJiCHFjbaYdWLHR99bG
 
 Signature: 5egRF8tzzyZKKrVz8L4SxqZ1o8zF3h3CTV7cwwcfXn9StpQSJbQRuRvm21N2MqrBxU7n1ECJyor4gqkwXy6ePVrV
+```
