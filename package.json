@@ -6,7 +6,9 @@
   "scripts": {
     "get-transaction": "tsx watch get-transaction.ts",
     "request-airdrop": "tsx watch request-airdrop.ts",
-    "account-testing": "tsx watch account-testing.ts"
+    "account-testing": "tsx watch account-testing.ts",
+    "read-json": "tsx watch read-keypair-json.ts",
+    "create-wallet-from-mnemonics": "tsx watch create-wallet-from-mnemonics.ts"
   },
   "keywords": [],
   "author": "",
@@ -17,7 +19,11 @@
     "typescript": "^5.5.3"
   },
   "dependencies": {
+    "@solana/spl-token": "^0.4.9",
     "@solana/web3.js": "^1.95.0",
-    "bs58": "^6.0.0"
+    "bip32": "^5.0.0-rc.0",
+    "bip39": "^3.1.0",
+    "bs58": "^6.0.0",
+    "tiny-secp256k1": "^2.2.3"
   }
 }

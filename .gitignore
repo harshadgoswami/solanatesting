@@ -1,2 +1,5 @@
 /node_modules
-cred.txt
+/temp
+id.json
+/docs/notes.md
+/config/dev.ts

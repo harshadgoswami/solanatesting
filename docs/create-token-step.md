@@ -1,4 +1,6 @@
 [Reference Site](https://solana.com/docs/core/tokens)
+[Javascript Example Mint Token](https://beta.solpg.io/660cea45cffcf4b13384d012)
+[Javascript Example Token Transfer](https://beta.solpg.io/660ced84cffcf4b13384d013)
 
 ### cli setup steps for testnet
 

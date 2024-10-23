@@ -14,6 +14,13 @@ curl https://api.devnet.solana.com -X POST -H "Content-Type: application/json" -
 '
 ```
 
+### Solana Core concepts
+
+It is important to understand the core concept of solana.please refer following 2 sections
+
+- [Solana Account Model](https://solana.com/docs/core/accounts)
+- [Transaction and Instruction](https://solana.com/docs/core/transactions)
+
 ### Important References
 
 - [reference](https://solana.com/docs/rpc/http/gettransaction) for getting transaction information
